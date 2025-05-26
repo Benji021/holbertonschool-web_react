@@ -16,3 +16,10 @@ Task 03 : Printing teachers.
     * printTeacherFunction describes the type of function : in this case two parameters string and return string.
 
     * Function charAt(0) : takes the first letter of the first name.
+
+Task 04 : Writing a class.
+    * Interface StudentConstructor : to describe the class constructor.
+
+    * Interface StudentClassInterface : to describe the class's methods.
+
+    * StudentClass : class implementing this interface.
