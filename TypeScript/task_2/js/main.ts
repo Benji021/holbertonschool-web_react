@@ -29,7 +29,7 @@ class Director implements DirectorInterface {
 
 // Class Teacher
 class Teacher implements TeacherInterface {
-    workFromeHome(): string {
+    workFromHome(): string {
         return 'Cannot work from hom';
     }
 
@@ -64,7 +64,7 @@ function executeWork(employee: Teacher | Director): string {
 }
 
 // String literal type
-type subjects = "Math" | "History";
+type Subjects = "Math" | "History";
 
 // Function subjects teach class
 function teachClass(todayClass: Subjects): string {
