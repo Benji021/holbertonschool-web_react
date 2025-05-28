@@ -1,4 +1,4 @@
-/// <reference path="Teacher.ts" />
+/// <reference path="Subject.ts" />
 namespace Subjects {
     export interface Teacher {
         experienceTeachingJava?: number;
@@ -8,7 +8,7 @@ namespace Subjects {
             return 'Here is the list of requirements for Java';
         }
         getAvailableTeacher(): string {
-            if (this.teacher.experienceTeachingJava > 0) {
+            if (this.teacher.experienceTeachingJava && this.teacher.experienceTeachingJava > 0) {
                 return `Available Teacher: <first name of teacher>`;
             }
             return 'No available teacher';

@@ -8,7 +8,7 @@ namespace Subjects {
             return 'Here is the list of requirements for React';
         }
         getAvailableTeacher(): string {
-            if (this.teacher.experienceTeachingReact? > 0) {
+            if (this.teacher.experienceTeachingReact && this.teacher.experienceTeachingReact > 0) {
                 return `Available Teacher: <first name of teacher>`;
             }
             return 'No available teacher'
